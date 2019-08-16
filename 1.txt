@@ -1,0 +1,9 @@
+
+  This is 104-upload-students-xlsx
+
+found 390 students.
+@89: { app_group: 413622 }
+# alert acs_object_type__create_type err: Key (pretty_name)=(tapp-instance Registered Tutor) already exists.
+api.acs_rel_type__create_type => { retv: null }
+# alert acs_object_type__create_type err: Key (pretty_name)=(tapp-instance Registered Student) already exists.
+api.acs_rel_type__create_type => { retv: null }
